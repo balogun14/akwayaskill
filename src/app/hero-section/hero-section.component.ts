@@ -13,19 +13,13 @@ export class HeroSectionComponent implements OnInit {
 
   ngOnInit() {
     const countDownDate = new Date();
-    countDownDate.setHours(45);
-    countDownDate.setMinutes(60);
+    countDownDate.setHours(23);
+    countDownDate.setMinutes(59);
     countDownDate.setSeconds(0);
 
     this.updateCountDown(countDownDate);
 
-    setInterval(() => {
-      // var now = new Date().getTime();
-      // var distance = countDownDate.getTime() - now;
-
-      // this.hours = Math.floor(distance / (1000 * 60 * 60));
-      // this.minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      // this.seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    setInterval(() => {     
       var customNow = new Date(" 22:51:00").getTime();
       this.updateCountDown(countDownDate);
     }, 1000);
