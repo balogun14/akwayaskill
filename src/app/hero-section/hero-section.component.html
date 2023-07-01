@@ -1,6 +1,6 @@
 <div class="container-fluid" id="container">
     <div class="row mb-3">
-        <div class="col-md-8 themed-grid-col">
+        <div class="col-lg-8 col-sm-6 themed-grid-col">
             <div class="title" id="title">
                 ui/ux design bootcamp
             </div>
@@ -19,7 +19,7 @@
 
             </div>
             <div class="row" id="timeclass">
-                <div class="col-md-4 themed-grid-col">
+                <div class="col-lg-4 themed-grid-col">
                     <div class="deadline">
                         <div>
                             <button class="btn btn-outline-sucess" id="dead1">Deadline Date</button> 24th of april 2023
@@ -30,18 +30,18 @@
 
                     </div>
                 </div>
-                <div class="col-md-4 themed-grid-col" id="timer">
+                <div class="col-md-4 themed-grid-col border-start border-primary" id="timer">
                     <div class="countdown" id="countdown">
-                        <span class="hours">{{ hours | number: '2.0' }}</span>:
-                        <span class="minutes">{{ minutes | number: '2.0' }}</span>:
-                        <span class="seconds">{{ seconds | number: '2.0' }}</span>
+                        <span class="hours border border-warning rounded-3">{{ hours | number: '2.0' }}</span>:
+                        <span class="minutes border border-warning rounded-3">{{ minutes | number: '2.0' }}</span>:
+                        <span class="seconds border border-warning rounded-3">{{ seconds | number: '2.0' }}</span>
                       </div>
                     
 
                 </div>
             </div>
         </div>
-        <div class="col-md-4 themed-grid-col" id="picture">
+        <div class="col-lg-4 col-sm-6 themed-grid-col" id="picture">
             <div class="container">
                 pic </div>
         </div>
