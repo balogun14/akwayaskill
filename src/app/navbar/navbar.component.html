@@ -1,8 +1,9 @@
 <nav class="navbar navbar-expand-lg fixed-top shadow-lg" id="row">
-  <div class="container" id="container">
-    <a class="navbar-brand" href="#"><a class="navbar-brand" href="#">
-        <img src="./assets/Akwayaskill3.png" width="150" height="50" class="d-inline-block align-top" alt="logo" id="logo">
-      </a></a>
+  <div class="container d-flex justify-content-between">
+    <a class="navbar-brand d-flex justify-content-evenly" href="#">
+      <img src="./assets/Akwayaskill3.png" width="150" height="50" class="d-inline-block align-top" alt="logo"
+        id="logo">
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
       aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -15,15 +16,17 @@
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        <ul class="navbar-nav d-flex justify-content-center gap-1 text-nowrap flex-grow-1 pe-3" id="links">
-          <a class="nav-item nav-link active" href="#">Curriculum</a>
-          <a class="nav-item nav-link" href="#">Past Students</a>
-          <a class="nav-item nav-link" href="#">FAQs</a>
-          <a class="nav-item nav-link " href="#">Mentors</a>
-          <a class="nav-item nav-link " id= "link" href="#">Plans</a>
-          <ul class="d-flex justify-content-end gap-2">
+        <ul class="navbar-nav d-flex justify-content-around  text-nowrap flex-grow-1 pe-3" id="links">
+          <ul class="navbar-nav d-flex justify-content-between "><a class="nav-item nav-link active" href="#">Curriculum</a>
+            <a class="nav-item nav-link" href="#">Past Students</a>
+            <a class="nav-item nav-link" href="#">FAQs</a>
+            <a class="nav-item nav-link " href="#">Mentors</a>
+            <a class="nav-item nav-link " id="link" href="#">Plans</a>
+          </ul>
+
+          <ul class="d-flex justify-content-between gap-1">
             <button class="btn btn-outline-sucess " id="advisor"> CALL ADVISOR</button>
-          <button class="btn btn-outline-sucess" id="apply"> APPLY NOW</button>
+            <button class="btn btn-outline-sucess" id="apply"> APPLY NOW</button>
           </ul>
         </ul>
       </div>

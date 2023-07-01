@@ -1,4 +1,7 @@
-
+#row{
+    background-color:whitesmoke;
+    width: 100%;
+}
 .button {
     font-size: 15px;
     display: flex;
