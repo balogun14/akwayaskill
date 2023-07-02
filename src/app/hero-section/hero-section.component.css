@@ -1,15 +1,9 @@
 #container {
     padding-top: 150px;
     background-color: white;
-    /* width: 1728px;
-    height: 1020px; */
 }
 
-.title {
-    display: flex;
-    width: 683px;
-    flex-direction: column;
-}
+
 
 #title {
     color: var(--foundation-blue-normal, #0036D2);
@@ -18,25 +12,17 @@
     font-weight: 700;
     line-height: 97.9%;
     text-transform: uppercase;
-    padding-left: 133px;
 
 }
 
 .role {
-    display: flex;
-    flex-flow: column nowrap;
-    width: 683px;
     color: #000;
     font-size: 26px;
     font-family: Montserrat;
-    padding-left: 133px;
-    padding-top: 30px;
 
 }
 
 .benefit {
-    padding-top: 35px;
-    padding-left: 133px;
     align-items: center;
 }
 
@@ -56,17 +42,10 @@
 
 }
 
-#timeclass {
-    padding-top: 35px;
-    padding-left: 133px;
-}
+
 
 .deadline {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
-    text-transform: uppercase;
     color: #000;
     font-size: 20px;
     font-family: Montserrat;
@@ -77,16 +56,10 @@
 }
 
 #dead1 {
-    text-transform: uppercase;
     background-color: #FAAF40;
-    margin-right: 20px;
-
 }
 
 #dead2 {
-    text-transform: uppercase;
-    margin-right: 20px;
-    border-radius: 5px;
     background: var(--foundation-green-normal, #8FE669);
 }
 
@@ -108,7 +81,7 @@
     align-items: center;
     width: 60px;
     height: 50px;
-    flex-basis: 45%;
+    flex-basis: 33%;
     color: #00134A;
 }
 
@@ -118,7 +91,7 @@
     align-items: center;
     width: 60px;
     height: 50px;
-    flex-basis: 45%;
+    flex-basis: 33%;
     color: #00134A;
 
 
@@ -130,14 +103,12 @@
     align-items: center;
     width: 60px;
     height: 50px;
-    flex-basis: 45%;
+    flex-basis: 33%;
     color: #00134A;
 }
-#countdown{
+
+#countdown {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
     align-items: center;
-    font-size: 20px;
-    gap: 5%;
+    gap: 17px;
 }

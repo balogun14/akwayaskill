@@ -12,11 +12,7 @@ export class HeroSectionComponent implements OnInit {
   seconds!: number;
 
   ngOnInit() {
-    const countDownDate = new Date();
-    countDownDate.setHours(23);
-    countDownDate.setMinutes(59);
-    countDownDate.setSeconds(0);
-
+    const countDownDate = new Date("Jul 2, 2023 23:59:00");
     this.updateCountDown(countDownDate);
 
     setInterval(() => {     
