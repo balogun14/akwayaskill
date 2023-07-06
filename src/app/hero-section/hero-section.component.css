@@ -24,20 +24,12 @@
     align-items: center;
 }
 
-#cash {
-    color: #FAAF40;
-    width: 26px;
-    height: 26px;
-}
-
 .benefits {
     color: var(--foundation-blue-darker, #00134A);
     font-size: 19px;
     font-family: Montserrat;
     line-height: 170.4%;
     padding-left: 21px;
-
-
 }
 
 
@@ -49,7 +41,6 @@
     line-height: 170.4%;
     white-space: nowrap;
     text-overflow: ellipsis;
-
 }
 
 #dead1 {
@@ -64,9 +55,6 @@
 
 
 .hours {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 60px;
     height: 50px;
     flex-basis: 26.7%;
@@ -74,9 +62,6 @@
 }
 
 .minutes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 60px;
     height: 50px;
     flex-basis: 26.7%;
@@ -86,18 +71,9 @@
 }
 
 .seconds {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 60px;
     height: 50px;
     flex-basis: 26.7%;
     color: #00134A;
 }
 
-#countdown {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-}
