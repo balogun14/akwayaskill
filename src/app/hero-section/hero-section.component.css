@@ -1,3 +1,13 @@
+:root {
+    --foundation-blue: #0036D2;
+    --white: #faf0e6;
+    --black:#0000;
+    --foundation-blue-darker:#00134A;
+    --foundation-green-normal: #8FE669;
+    --light-orange:#FAAF40;
+
+
+  }
 #container {
     padding-top: 150px;
 }
@@ -5,7 +15,7 @@
 
 
 #title {
-    color: var(--foundation-blue-normal, #0036D2);
+    color: var(--foundation-blue-normal);
     font-size: 96px;
     font-family: Oswald;
     line-height: 97.9%;
@@ -14,7 +24,7 @@
 }
 
 .role {
-    color: var(--foundation-blue-normal, #000);
+    color: var(--black);
     font-size: 26px;
     font-family: Montserrat;
 
@@ -25,7 +35,7 @@
 }
 
 .benefits {
-    color: var(--foundation-blue-darker, #00134A);
+    color: var(--foundation-blue-darker);
     font-size: 19px;
     font-family: Montserrat;
     line-height: 170.4%;
@@ -35,7 +45,7 @@
 
 
 .deadline {
-    color: var(--foundation-blue-normal, #000);
+    color: var(--black);
     font-size: 20px;
     font-family: Montserrat;
     line-height: 170.4%;
@@ -58,14 +68,14 @@
     width: 60px;
     height: 50px;
     flex-basis: 26.7%;
-    color: #00134A;
+    color: var(--foundation-blue-darker);
 }
 
 .minutes {
     width: 60px;
     height: 50px;
     flex-basis: 26.7%;
-    color: #00134A;
+    color: var(--foundation-blue-darker);
 
 
 }
@@ -74,6 +84,6 @@
     width: 60px;
     height: 50px;
     flex-basis: 26.7%;
-    color: #00134A;
+    color: var(--foundation-blue-darker);
 }
 
