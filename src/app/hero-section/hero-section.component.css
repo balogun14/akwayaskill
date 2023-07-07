@@ -14,7 +14,7 @@
 }
 
 .role {
-    color: #000;
+    color: var(--foundation-blue-normal, #000);
     font-size: 26px;
     font-family: Montserrat;
 
@@ -35,7 +35,7 @@
 
 
 .deadline {
-    color: #000;
+    color: var(--foundation-blue-normal, #000);
     font-size: 20px;
     font-family: Montserrat;
     line-height: 170.4%;
