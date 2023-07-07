@@ -15,7 +15,7 @@
 
 
 #title {
-    color: var(--foundation-blue-normal);
+    color: var(--foundation-blue-normal, #0036D2);
     font-size: 96px;
     font-family: Oswald;
     line-height: 97.9%;
@@ -30,9 +30,6 @@
 
 }
 
-.benefit {
-    align-items: center;
-}
 
 .benefits {
     color: var(--foundation-blue-darker);
